@@ -20,7 +20,7 @@ body h1 {
 
 #midcolumn {
    float:left;
-   width:35%;
+   width:50%;
 }
 
 #rightcolumn {
@@ -39,4 +39,14 @@ body h1 {
 
 #command {
    width:300px;
+}
+
+#coords{
+   float:right;
+}
+
+.colours{
+   padding:5px;
+   width:150px;
+   text-align: center;
 }
