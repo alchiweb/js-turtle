@@ -14,12 +14,7 @@ color([r,g,b])
 */
 
 width(5);
-color([0,0,255]);
-forward(50);
-color(250,0,0);
-forward(50);
-colour(0,250,0);
-forward(50);
 
-colour([0,255,255]);
 forward(50);
+left(90);
+forward(100);
