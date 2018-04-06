@@ -52,7 +52,7 @@ body h1 {
 }
 
 
-turtlecanvas, #imagecanvas{
+#turtlecanvas, #imagecanvas{
     margin:20px auto;
     display:block;
 }
