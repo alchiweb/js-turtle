@@ -50,3 +50,10 @@ body h1 {
    width:150px;
    text-align: center;
 }
+
+
+turtlecanvas, #imagecanvas{
+    margin:20px auto;
+    display:block;
+}
+  

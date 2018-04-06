@@ -18,18 +18,15 @@ color("#ff0000")
 */
 
 width(5);
-forward(50);
-left(90);
+
 color("red");
-forward(100);
 forward(50);
 left(90);
-color("#00ff00");
-forward(100);
-forward(50);
-left(90);
-color(255,255,0);
-forward(100);
-color([100,50,120]);
-left(80);
-forward(155);
+
+color(20,200,0);
+forward(200);
+
+color("magenta");
+right(135);
+goto(-108,-113);
+forward(120);
