@@ -1,13 +1,13 @@
 /*
-showGrid(20);      //draw grid
+showGrid(20);      //գծել կորդինատային առանցքները
 forward(distance)  //գնալ առաջ (հեռավորություն)
-right(angle)            //աջ (անկյուն)
-left(angle) 	     //ձախ (անկյուն)	
-goto(x,y) 	     //գնա (x կորդինատ, y կորդինատ)
-clear() 	                  //մաքրել
-penup() 	    //բարձրացնել մատիտը
-pendown() 	    //իջեցնել մատիտը
-reset() 	                 //սկսել սկզբից, ջնջել ամեն ինչ ....
+right(angle)       //աջ (անկյուն)
+left(angle) 	   //ձախ (անկյուն)	
+goto(x,y) 	       //գնա (x կորդինատ, y կորդինատ)
+clear() 	       //մաքրել
+penup() 	       //բարձրացնել մատիտը
+pendown() 	       //իջեցնել մատիտը
+reset() 	       //սկսել սկզբից, ջնջել ամեն ինչ ....
 angle(angle)	   //անկյուն	 
 width(width)       //մատիտի հաստությունը(հաստություն)
 
@@ -18,10 +18,9 @@ color("red")
 color("#ff0000")
 */
 
-showGrid(20);
+//showGrid(20);
 
 width(5);
-
 color("red");
 forward(50);
 left(90);
