@@ -1,4 +1,5 @@
 /*
+showGrid(20);      //draw grid
 forward(distance)  //գնալ առաջ (հեռավորություն)
 right(angle)            //աջ (անկյուն)
 left(angle) 	     //ձախ (անկյուն)	
@@ -16,6 +17,8 @@ color([r,g,b])
 color("red")
 color("#ff0000")
 */
+
+showGrid(20);
 
 width(5);
 
