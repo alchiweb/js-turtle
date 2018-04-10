@@ -18,6 +18,7 @@ color("red")
 color("#ff0000")
 */
 
+
 //showGrid(20);
 
 width(5);
@@ -32,3 +33,28 @@ color("magenta");
 right(135);
 goto(-108,-113);
 forward(120);
+
+
+/*
+width(1);
+goto(-277,167);  
+color("red");
+strangeSquare(100);
+
+goto(21,189); 
+color("blue");
+strangeSquare(200);
+
+goto(-59,69);  
+color("green");
+strangeSquare(150);
+
+goto(-210,-173);
+color("magenta");
+strangeCirle(100);
+
+
+goto(114,-198);
+color("blue");
+strangeLine(150);
+*/
