@@ -22,39 +22,18 @@ color("#ff0000")
 //showGrid(20);
 
 width(5);
-color("red");
-forward(50);
-left(90);
-
-color(20,200,0);
-forward(200);
-
-color("magenta");
-right(135);
-goto(-108,-113);
+color("blue");
 forward(120);
 
-
-/*
 width(1);
-goto(-277,167);  
+left(65);
 color("red");
-strangeSquare(100);
+forward(150);
 
-goto(21,189); 
-color("blue");
-strangeSquare(200);
 
-goto(-59,69);  
+goto(184,-208);
+width(2);
+right(100);
 color("green");
-strangeSquare(150);
+forward(150);
 
-goto(-210,-173);
-color("magenta");
-strangeCirle(100);
-
-
-goto(114,-198);
-color("blue");
-strangeLine(150);
-*/

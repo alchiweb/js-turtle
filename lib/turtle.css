@@ -6,6 +6,7 @@ html {
 
 body h1 {
    text-align:center;
+   margin: 9px;
 }
 
 #wrap {
@@ -56,4 +57,14 @@ body h1 {
     margin:20px auto;
     display:block;
 }
-  
+ 
+.message-hide{
+    display: none;
+}
+
+.message-show{
+    height: 12px;
+    color:red;
+    float: right;
+    font-size: 12px;
+}
