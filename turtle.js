@@ -18,7 +18,7 @@ color("red")
 color("#ff0000")
 */
 
-/*
+
 //showGrid(20);
 
 width(5);
@@ -36,8 +36,6 @@ width(2);
 right(100);
 color("green");
 forward(150);
-*/
 
 
-strangeSquare(150)
-forward(200);
+
