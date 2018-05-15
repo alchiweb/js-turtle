@@ -12,14 +12,14 @@ angle(angle)	   //անկյուն
 width(width)       //մատիտի հաստությունը(հաստություն)
 
 //ընտրել գույն(), արգումենտը, երեք թիվ, զանգված, գույնի անունը կամ #հեքսկոդը
-color(r,g,b) 	   
+color(r,g,b)
 color([r,g,b])
 color("red")
 color("#ff0000")
 */
 
-
-//showGrid(20);
+showGrid(50);
+setSpeed(200);
 
 width(5);
 color("blue");
@@ -30,12 +30,8 @@ left(65);
 color("red");
 forward(150);
 
-
 goto(184,-208);
 width(2);
 right(100);
 color("green");
 forward(150);
-
-
-
