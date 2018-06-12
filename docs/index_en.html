@@ -170,7 +170,7 @@
                                     <h3>forward()</h3>
                                     <p>Turtle moves forward by given steps, if we write 100 between parentheses, than turtle
                                         will move by 100 step.</p>
-                                    <p class="signature">forward([steps])</p>
+                                    <p class="signature">forward(steps)</p>
                                     <strong>arguments</strong>
                                     <p>int: steps</p>
                                     <div class="row">
@@ -189,7 +189,7 @@
                                     <h3>left()</h3>
                                     <p>Turtle turn left by given degree, if we write 30 between parentheses, than turtle will
                                         turn by 30 degrees.</p>
-                                    <p class="signature">left([degrees])</p>
+                                    <p class="signature">left(degrees)</p>
                                     <strong>arguments</strong>
                                     <p>int: degrees</p>
                                     <div class="row">
@@ -224,7 +224,18 @@ left(50)
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <h6>Geometry</h6>
-                                            <p>Note! turtle turns by angle, not become to an angle</p>
+                                            <div class="callout-block callout-danger">
+                                                <div class="icon-holder">
+                                                    <i class="fa fa-exclamation-triangle"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content">
+                                                    <h4 class="callout-title">Note!</h4>
+                                                    <p> turtle turns by angle, not becomes to an angle provided to function left()</p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
                                             <p>You can play with it
                                                 <a href="https://www.geogebra.org/m/TzAjZFst" target="_blank">here.</a>
                                             </p>
@@ -248,7 +259,7 @@ left(50)
                                 <div id="width" class="section-block">
                                     <h3>width()</h3>
                                     <p>Sets line thickness</p>
-                                    <p class="signature">width([thickness])</p>
+                                    <p class="signature">width(thickness)</p>
                                     <strong>arguments</strong>
                                     <p>int: thickness</p>
                                     <div class="row">
@@ -272,7 +283,103 @@ forward(100)</code></pre>
                                 </div>
 
 
+                                <div id="color" class="section-block">
+                                    <h3>color()</h3>
+                                    <p>Sets color of next lines</p>
+                                    <p class="signature">color(r [, g [, b ]]])</p>
+                                    <strong>arguments</strong>
+                                    <p>string: a (color name)<br>
+                                    int: a, b, c (RGB)<br>
+                                    string: a (color hexcode)<br>
+                                    array: [a,b,c]</p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Example 1 (color name)</h6>
+                                            <pre><code class="language-javascript">color("red")
+forward(100)
 
+color("green")
+forward(60)
+
+color("dodgerblue")
+forward(120)</code></pre>
+<br>
+You can explore all <a href="https://github.com/hanumanum/js-turtle/blob/master/lib/library.js#L597" target="_blank">available color names here</a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Result</h6>
+                                            <img class="example-gif" src="assets/images/color_name.gif">
+                                        </div>
+                                    </div>
+                                    <!--//row-->
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Example 2 (RGB)</h6>
+                                            <pre><code class="language-javascript">color(255,15,20)
+forward(100)
+
+color(12,250,65)
+forward(60)
+
+color(89,100,36)
+forward(120)</code></pre>
+<br>
+You can explore all <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Result</h6>
+                                            <img class="example-gif" src="assets/images/color_rgb.gif">
+                                        </div>
+                                    </div>
+                                    <!--//row-->
+
+
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Example 3 (HEX)</h6>
+                                            <pre><code class="language-javascript">color("#3EEF0F")
+forward(100)
+
+color("#ED16A2")
+forward(60)
+
+color("#EDCD16")
+forward(120)</code></pre>
+<br>
+You can explore all <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Result</h6>
+                                            <img class="example-gif" src="assets/images/color_hex.gif">
+                                        </div>
+                                    </div>
+                                    <!--//row-->                                    
+
+
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Example 4 (array RGB)</h6>
+                                            <pre><code class="language-javascript">color([15,20,200])
+forward(100)
+
+color([65,250,150])
+forward(60)
+
+color([255,100,200])
+forward(120)</code></pre>
+<br>
+You can explore all <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Result</h6>
+                                            <img class="example-gif" src="assets/images/color_rgb_array.gif">
+                                        </div>
+                                    </div>
+                                    <!--//row-->    
+
+
+                                </div>
 
                                 <div id="less" class="section-block">
                                     <div class="code-block">
@@ -738,9 +845,6 @@ echo $y;
                                             <a class="scrollto" href="#color">color()</a>
                                         </li>
                                         <li>
-                                            <a class="scrollto" href="#clear">clear()</a>
-                                        </li>
-                                        <li>
                                             <a class="scrollto" href="#goto">goto()</a>
                                         </li>
                                         <li>
@@ -748,6 +852,9 @@ echo $y;
                                         </li>
                                         <li>
                                             <a class="scrollto" href="#pendown">pendown()</a>
+                                        </li>
+                                        <li>
+                                            <a class="scrollto" href="#clear">clear()</a>
                                         </li>
                                     </ul>
                                     <!--//nav-->

@@ -1277,3 +1277,7 @@ select {
 .example-gif{
   width: 100%;
 }
+
+pre{
+  font-size: 18px;
+}
