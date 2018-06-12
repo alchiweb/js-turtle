@@ -1286,3 +1286,12 @@ pre{
   border-bottom: 1px gray solid;
   padding-bottom: 5px;
 }
+
+.red-border{
+  border: solid 1px red;
+}
+
+
+.footer {
+  height: 70px;
+}
