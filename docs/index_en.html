@@ -381,27 +381,36 @@ You can explore all <a href="https://htmlcolorcodes.com/color-picker/" target="_
 
                                 </div>
 
-                                <div id="less" class="section-block">
-                                    <div class="code-block">
-                                        <h6>LESS Code Example</h6>
-                                        <pre><code class="language-css">/*
-* Template Name: prettyDocs - Responsive Website Template for documentations 
-* Version: 1.0 
-* Author: Xiaoying Riley 
-* License: Creative Commons Attribution 3.0 License 
-* Twitter: @3rdwave_themes 
-* Website: http://themes.3rdwavemedia.com/ 
-*/ 
-@import &quot;mixins.less&quot;; 
-@import &quot;theme-default.less&quot;; 
-@import &quot;base.less&quot;; 
-@import &quot;doc.less&quot;; 
-@import &quot;landing.less&quot;; 
-@import &quot;responsive.less&quot;;</code></pre>
+
+                                <div id="goto" class="section-block">
+                                    <h3>goto()</h3>
+                                    <p>Move to x,y coordinates without drawing a line</p>
+                                    <p class="signature">goto(x,y)</p>
+                                    <strong>arguments</strong>
+                                    <p>int: x, int: y</p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Example 1</h6>
+                                            <pre><code class="language-javascript">color("red")
+goto(-213,128)
+forward(100)
+
+color("blue")
+goto(-7,105)
+forward(60)
+
+color("green")
+goto(238,-182)
+forward(120)</code></pre>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Result</h6>
+                                            <img class="example-gif" src="assets/images/goto.gif">
+                                        </div>
                                     </div>
-                                    <!--//code-block-->
-                                </div>
-                                <!--//section-block-->
+                                    <!--//row-->
+                            </div>
+
                                 <div id="sass" class="section-block">
                                     <div class="code-block">
                                         <h6>Sass Code Example</h6>
