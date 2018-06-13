@@ -1295,3 +1295,15 @@ pre{
 .footer {
   height: 70px;
 }
+
+
+.doc-section h3:before {
+  content: "»";
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.breadcrumb li.active a{
+  color:white;
+  text-decoration: underline;
+}

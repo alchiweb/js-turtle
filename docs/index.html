@@ -41,9 +41,8 @@
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                            <span class="text-highlight">js</span>
-                            <span class="text-bold">turtle</span>
+                            <img src="favicon.ico">
+                            <span class="text-highlight">js</span><span class="text-bold">-turtle</span>
                         </a>
                     </h1>
                 </div>
@@ -56,10 +55,10 @@
                         <a href="index_en.html">ENG</a>
                     </li>
                     <li>
-                        <a href="index_fr.html">FRA</a>
+                        <a href="#">FRA</a>
                     </li>
                     <li>
-                        <a href="index_ru.html">RUS</a>
+                        <a href="#">RUS</a>
                     </li>
                 </ol>
             </div>
@@ -75,7 +74,8 @@
                         <i class="fa fa-clock-o"></i> Վերջին թարմացում: Հունիս 13, 2018</div>
                         <br>
                         <a class="github-button" href="https://github.com/hanumanum/js-turtle" data-show-count="true" aria-label="Star hanumanum/js-turtle on GitHub">Star</a>
-                </div>
+                        <a class="github-button" href="https://github.com/hanumanum/js-turtle/fork" data-icon="octicon-repo-forked" aria-label="Fork hanumanum/js-turtle on GitHub">Fork</a>
+                    </div>
                 <!--//doc-header-->
                 <div class="doc-body">
                     <div class="doc-content">
@@ -533,13 +533,13 @@ setInterval(function(){
                                 <h2 class="section-title">"Տարօրինակ" Ֆունկցիաներ</h2>
                                 <div id="strangeLine" class="section-block">
                                     <h3>strangeLine()</h3>
-                                    <p>strangeLine() is like forward() but line has random pattern</p>
+                                    <p>strangeLine() նման է forward()֊ի, սակայն գիծը գծում է պատահական կտորներով</p>
                                     <p class="signature">strangeLine([steps])</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: steps</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">color("red")
 strangeLine(200)
 
@@ -549,7 +549,7 @@ color("blue")
 strangeLine(250)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif red-border" src="assets/images/strangeLine.gif">
                                         </div>
                                     </div>
@@ -557,15 +557,15 @@ strangeLine(250)</code></pre>
 
                                     <div id="strangeSquare" class="section-block">
                                         <h3>strangeSquare()</h3>
-                                        <p>strangeSquare() draws patterned square, by particles</p>
+                                        <p>strangeSquare() գծում է «քառակուսի»՝ մասնիկներով</p>
                                         <p class="signature">strangeSquare(length[,step])</p>
-                                        <strong>arguments</strong>
+                                        <strong>արգումենտներ</strong>
                                         <p>int: length
                                             <br> int: step
                                         </p>
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <h6>Example</h6>
+                                                <h6>Օրինակ</h6>
                                                 <pre><code class="language-javascript">goto(-206,169)
 color("red")
 strangeSquare(200,15)
@@ -575,7 +575,7 @@ color("blue")
 strangeSquare(100,5)</code></pre>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <h6>Result</h6>
+                                                <h6>Արդյունք</h6>
                                                 <img class="example-gif red-border" src="assets/images/strangeSquare.png">
                                             </div>
                                         </div>
@@ -584,13 +584,13 @@ strangeSquare(100,5)</code></pre>
 
                                         <div id="strangeCircle" class="section-block">
                                             <h3>strangeCircle()</h3>
-                                            <p>strangeCircle() draws patterned cirlce, by particles</p>
+                                            <p>strangeCircle() գծում է «շրջանագիծ»՝ մասնիկներով</p>
                                             <p class="signature">strangeCircle(radius)</p>
-                                            <strong>arguments</strong>
+                                            <strong>արգումենտներ</strong>
                                             <p>int: radius</p>
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <h6>Example</h6>
+                                                    <h6>Օրինակ</h6>
                                                     <pre><code class="language-javascript">goto(-15,-26)
 color("red")
 strangeCircle(200)
@@ -600,7 +600,7 @@ color("blue")
 strangeCircle(100)</code></pre>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <h6>Result</h6>
+                                                    <h6>Արդյունք</h6>
                                                     <img class="example-gif red-border" src="assets/images/strangeCircle.png">
                                                 </div>
                                             </div>
@@ -608,13 +608,13 @@ strangeCircle(100)</code></pre>
 
                                             <div id="strangeGalaxy" class="section-block">
                                                 <h3>strangeGalaxy()</h3>
-                                                <p>strangeGalaxy() draws patterned "galaxy", by particles</p>
+                                                <p>strangeGalaxy() գծում է "գալակտիկա"՝ մասնիկներով</p>
                                                 <p class="signature">strangeGalaxy(radius)</p>
-                                                <strong>arguments</strong>
+                                                <strong>արգումենտներ</strong>
                                                 <p>int: radius</p>
                                                 <div class="row">
                                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                                        <h6>Example</h6>
+                                                        <h6>Օրինակ</h6>
                                                         <pre><code class="language-javascript">goto(-158,167)
 color("red")
 strangeGalaxy(180)
@@ -624,7 +624,7 @@ color("blue")
 strangeGalaxy(100)</code></pre>
                                                     </div>
                                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                                        <h6>Result</h6>
+                                                        <h6>Արդյունք</h6>
                                                         <img class="example-gif red-border" src="assets/images/strangeGalaxy.png">
                                                     </div>
                                                 </div>
@@ -651,19 +651,19 @@ strangeGalaxy(100)</code></pre>
                                             <a class="scrollto" href="#installation-section">Գրել և աշխատեցնել կոդ</a>
                                             <ul class="nav doc-sub-menu">
                                                 <li>
-                                                    <a class="scrollto" href="#step1">Work Offline</a>
+                                                    <a class="scrollto" href="#step1">Անցանց</a>
                                                 </li>
                                                 <li>
-                                                    <a class="scrollto" href="#step2">Work Online</a>
+                                                    <a class="scrollto" href="#step2">Առցանց</a>
                                                 </li>
                                             </ul>
                                             <!--//nav-->
                                         </li>
                                         <li>
-                                            <a class="scrollto" href="#turtle-terms">Turtle terms</a>
+                                            <a class="scrollto" href="#turtle-terms">Տերմիններ</a>
                                         </li>
                                         <li>
-                                            <a class="scrollto" href="#basic-functions">Basic Functions</a>
+                                            <a class="scrollto" href="#basic-functions">Հիմնական ֆունկցիաներ</a>
                                             <ul class="nav doc-sub-menu">
                                                 <li>
                                                     <a class="scrollto" href="#forward">forward()</a>
@@ -696,7 +696,7 @@ strangeGalaxy(100)</code></pre>
                                             <!--//nav-->
                                         </li>
                                         <li>
-                                            <a class="scrollto" href="#helper-section">Helper Functions</a>
+                                            <a class="scrollto" href="#helper-section">Օգնական ֆունկցիաներ</a>
                                             <ul class="nav doc-sub-menu">
                                                 <li>
                                                     <a class="scrollto" href="#showgrid">showGrid()</a>
@@ -707,7 +707,7 @@ strangeGalaxy(100)</code></pre>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="scrollto" href="#strange-section">Strange Functions</a>
+                                            <a class="scrollto" href="#strange-section">«Տարօրինակ» ֆունկցիաներ</a>
                                             <ul class="nav doc-sub-menu">
                                                 <li>
                                                     <a class="scrollto" href="#strangeLine">strangeLine()</a>
@@ -743,12 +743,12 @@ strangeGalaxy(100)</code></pre>
                 <footer id="footer" class="footer text-center">
                     <div class="container">
                         <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                        <small class="copyright">Theme Designed with
-                            <i class="fa fa-heart"></i> by
-                            <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small><br>
-                        <small class="copyright">Docs prepared with
-                                <i class="fa fa-heart"></i> by
-                                <a href="http://ablog.gratun.am" target="_blank">hanumanum</a> for learners and educators</small>
+                        <small class="copyright">Թեմայի դիզայնը՝
+                            <i class="fa fa-heart"></i> սիրով
+                            <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a>ից ծրագրավորողների համար</small><br>
+                        <small class="copyright">Ուղեցույցը՝ 
+                                <i class="fa fa-heart"></i> սիրով
+                                <a href="http://ablog.gratun.am" target="_blank">hanumanum</a>֊ից ուսանողների և դասավանդողների համար։</small>
     
                         </div>
                     <!--//container-->
