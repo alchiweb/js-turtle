@@ -97,8 +97,9 @@
                             <!--//doc-section-->
                             <section id="installation-section" class="doc-section">
                                 <h2 class="section-title">Ինչպես գրել և աշխատեցնել ծրագրերը</h2>
+                                <p>Կարող ես աշխատել երկու տարբերակով՝ անցանց և առցանց։</p>
                                 <div id="step1" class="section-block">
-                                    <h3 class="block-title">Աշխատել անցանց</h3>
+                                    <h3 class="block-title">1․ Աշխատել անցանց</h3>
                                     <ol class="list">
                                         <li>Ներբեռնիր արխիվը</li>
                                         <li>Հանիր արխիվի պարունակությունը</li>
@@ -120,7 +121,7 @@
                                 </div>
                                 <!--//section-block-->
                                 <div id="step2" class="section-block">
-                                    <h3 class="block-title">Աշխատել առցանց</h3>
+                                    <h3 class="block-title">2․ Աշխատել առցանց</h3>
                                     <p>Նույնպես կարող ես աշխատել codepan֊ում js-turtle֊ը արդեն ինտեգրված է հետևյալ codepan֊ում։
                                     </p>
                                     <p>
@@ -161,7 +162,7 @@
                                     <!--//icon-holder-->
                                     <div class="content">
                                         <h4 class="callout-title">Օգտակար</h4>
-                                        <p>Կտավի վրա կտտացնելուց հետո կորդինատները ավտոմատ պատճենվում են փոխանակման բուֆերում․ Այսինքն կարող ես միանգամից տեղադրել(paste) դրանք ծրագրի մեջ։</p>
+                                        <p>Կտավի վրա կտտացնելուց հետո կորդինատները ավտոմատ պատճենվում են փոխանակման բուֆերում։ Այսինքն կարող ես միանգամից տեղադրել(paste) դրանք ծրագրի մեջ։</p>
                                     </div>
                                     <!--//content-->
                                 </div>
@@ -172,18 +173,17 @@
                                 <h2 class="section-title">Հիմնական ֆունկցիաներ</h2>
                                 <div id="forward" class="section-block">
                                     <h3>forward()</h3>
-                                    <p>Turtle moves forward by given steps, if we write 100 between parentheses, than turtle
-                                        will move by 100 step.</p>
+                                    <p>forward բառը անգլերենից թարգմանաբար նշանակում է «առաջ»։ Այս ֆունկցիան կրիային մղում է առաջ տրված քայլերի քանակով։ Այսինքն, եթե փակագծերի մեջ գրաված է 100, ապա կրիան կշարժվի 100 միավոր առաջ։</p>
                                     <p class="signature">forward(steps)</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: steps</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">forward(100)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/forward.gif">
                                         </div>
                                     </div>
@@ -191,28 +191,27 @@
                                 </div>
                                 <div id="left" class="section-block">
                                     <h3>left()</h3>
-                                    <p>Turtle turn left by given degree, if we write 30 between parentheses, than turtle will
-                                        turn by 30 degrees.</p>
+                                    <p>Left բառը անգլերենից թարգմանաբար նշանակում է ձախ։ Կրիան «քիթը» պտտում է տրված աստիճանով դեպի ձախ։ Եթե փակագծերի մեջ գրանք 30, ապա կրիան կթեքվի 30 աստիճանով ձախ</p>
                                     <p class="signature">left(degrees)</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: degrees</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1</h6>
+                                            <h6>Օրինակ 1</h6>
                                             <pre><code class="language-javascript">left(30)
 left(60)
 left(90)
                                                 </code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/left.gif">
                                         </div>
                                     </div>
                                     <!--//row-->
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 2</h6>
+                                            <h6>Օրինակ 2</h6>
                                             <pre><code class="language-javascript">forward(100)
 left(30)
 forward(100)
@@ -220,22 +219,22 @@ left(50)
                                                     </code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/left_2.gif">
                                         </div>
                                     </div>
                                     <!--//row-->
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Geometry</h6>
+                                            <h6>Երկրաչափություն</h6>
                                             <div class="callout-block callout-danger">
                                                 <div class="icon-holder">
                                                     <i class="fa fa-exclamation-triangle"></i>
                                                 </div>
                                                 <!--//icon-holder-->
                                                 <div class="content">
-                                                    <h4 class="callout-title">Note!</h4>
-                                                    <p> turtle turns by angle, not becomes to an angle provided to function left()</p>
+                                                    <h4 class="callout-title">Հիշիր!</h4>
+                                                    <p>left() ֆունկցիայի միջոցով, կրիան ոչ թե ստանում է անկյուն, այլ թեքվում է նշված անկյունով։</p>
                                                 </div>
                                                 <!--//content-->
                                             </div>
@@ -254,21 +253,21 @@ left(50)
 
                                 <div id="right" class="section-block">
                                     <h3>right()</h3>
-                                    <p>Same as in left but to right :)</p>
-                                    <p>See
-                                        <a class="scrollto" href="#left">left</a>
+                                    <p>Ամեն ինչը ինչպես left()֊ի ժամանակ, սակայն դեպի աջ :)</p>
+                                    <p>Տես`
+                                        <a class="scrollto" href="#left">left()</a>
                                     </p>
                                 </div>
 
                                 <div id="width" class="section-block">
                                     <h3>width()</h3>
-                                    <p>Sets line thickness</p>
+                                    <p>width բառը թարգմանաբար նշանակում է լայնություն․ width() ֆունկցիան կարգավորում է հաջորդ գծերի լայնությունը</p>
                                     <p class="signature">width(thickness)</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: thickness</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">width(3)
 forward(100)
                                                        
@@ -279,7 +278,7 @@ width(6)
 forward(100)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/width.gif">
                                         </div>
                                     </div>
@@ -289,16 +288,16 @@ forward(100)</code></pre>
 
                                 <div id="color" class="section-block">
                                     <h3>color()</h3>
-                                    <p>Sets color of next lines</p>
+                                    <p>color, թարգմանաբար՝ գույն, որոշում է հաջորդող գծերի գույնը</p>
                                     <p class="signature">color(r [, g [, b ]]])</p>
-                                    <strong>arguments</strong>
-                                    <p>string: a (color name)
+                                    <strong>արգումենտներ</strong>
+                                    <p>string: a (գույնի անունը)
                                         <br> int: a, b, c (RGB)
-                                        <br> string: a (color hexcode)
+                                        <br> string: a (գույնի hex կոդը)
                                         <br> array: [a,b,c]</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1 (color name)</h6>
+                                            <h6>Օրինակ 1 (գույնի անունով)</h6>
                                             <pre><code class="language-javascript">color("red")
 forward(100)
 
@@ -307,18 +306,18 @@ forward(60)
 
 color("dodgerblue")
 forward(120)</code></pre>
-                                            <br> You can explore all
-                                            <a href="https://github.com/hanumanum/js-turtle/blob/master/lib/library.js#L597" target="_blank">available color names here</a>
+                                            <br> Տես հասանելի 
+                                            <a href="https://github.com/hanumanum/js-turtle/blob/master/lib/library.js#L597" target="_blank">գույների անունները։</a>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/color_name.gif">
                                         </div>
                                     </div>
                                     <!--//row-->
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 2 (RGB)</h6>
+                                            <h6>Օրինակ 2 (RGB)</h6>
                                             <pre><code class="language-javascript">color(255,15,20)
 forward(100)
 
@@ -327,11 +326,11 @@ forward(60)
 
 color(89,100,36)
 forward(120)</code></pre>
-                                            <br> You can
-                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                            <br> Կարող ես վերցնել քեզ հետաքրքրող գույնի կոդը
+                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">այստեղից</a>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/color_rgb.gif">
                                         </div>
                                     </div>
@@ -341,7 +340,7 @@ forward(120)</code></pre>
 
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 3 (HEX)</h6>
+                                            <h6>Օրինակ 3 (HEX)</h6>
                                             <pre><code class="language-javascript">color("#3EEF0F")
 forward(100)
 
@@ -350,11 +349,11 @@ forward(60)
 
 color("#EDCD16")
 forward(120)</code></pre>
-                                            <br> You can
-                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                            <br> Կարող ես վերցնել քեզ հետաքրքրող գույնի կոդը 
+                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">ասյտեղից</a>։
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/color_hex.gif">
                                         </div>
                                     </div>
@@ -363,7 +362,7 @@ forward(120)</code></pre>
 
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 4 (array RGB)</h6>
+                                            <h6>Օրինակ 4 (զանգածով RGB)</h6>
                                             <pre><code class="language-javascript">color([15,20,200])
 forward(100)
 
@@ -372,11 +371,11 @@ forward(60)
 
 color([255,100,200])
 forward(120)</code></pre>
-                                            <br> You can
-                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">pick colors from here</a>
+                                            <br> Կարող ես վերցնել քեզ հետաքրքրող գույնի կոդը
+                                            <a href="https://htmlcolorcodes.com/color-picker/" target="_blank">այստեղից</a>։
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/color_rgb_array.gif">
                                         </div>
                                     </div>
@@ -388,13 +387,13 @@ forward(120)</code></pre>
 
                                 <div id="goto" class="section-block">
                                     <h3>goto()</h3>
-                                    <p>Move to x,y coordinates without drawing a line</p>
+                                    <p>Տեղափոխում է կրիան x,y կորդինատները ունեցող կետ, սակայն չի գիծ չի գծում տեղափոխման ընթացքում։</p>
                                     <p class="signature">goto(x,y)</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: x, int: y</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1</h6>
+                                            <h6>Օրինակ 1</h6>
                                             <pre><code class="language-javascript">color("red")
 goto(-213,128)
 forward(100)
@@ -408,7 +407,7 @@ goto(238,-182)
 forward(120)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/goto.gif">
                                         </div>
                                     </div>
@@ -416,14 +415,14 @@ forward(120)</code></pre>
                                 </div>
                                 <div id="penup" class="section-block">
                                     <h3>penup() & pendown()</h3>
-                                    <p>penup() sets to not draw next lines. pendown() removes that setting</p>
+                                    <p> "pen up"֊ը անգլերեն՝ բարձրացնել մատիտը, "pen down"֊ը ՝ իջեցնել։ Այս ֆունկցիաները կարգավորում են forward()-ով շարման ընթացքում գծել֊չգծելու հարցը։</p>
                                     <p class="signature">penup()</p>
                                     <p class="signature">pendown()</p>
-                                    <strong>arguments</strong>
-                                    <p>no arguments</p>
+                                    <strong>արգումենտներ</strong>
+                                    <p>արգումենտներ չունեն</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">color("red")
 forward(100)
 
@@ -435,7 +434,7 @@ color("blue")
 forward(100)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/penup.gif">
                                         </div>
                                     </div>
@@ -444,13 +443,13 @@ forward(100)</code></pre>
 
                                 <div id="clear" class="section-block">
                                     <h3>clear()</h3>
-                                    <p>Clear all canvas. Use clear() mostly for animations.</p>
+                                    <p>Մաքրում է կտավը(canvas). Հիմնականում օգտագործվում է անիմացիաներ անելիս։</p>
                                     <p class="signature">clear()</p>
-                                    <strong>arguments</strong>
-                                    <p>no arguments</p>
+                                    <strong>արգումենտներ</strong>
+                                    <p>արգումենտներ չունի</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">clear()</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
@@ -463,37 +462,36 @@ forward(100)</code></pre>
 
 
                             <section id="helper-section" class="doc-section">
-                                <h2 class="section-title">Helper Functions</h2>
+                                <h2 class="section-title">Օգնական ֆունկցիաներ</h2>
                                 <div class="section-block">
-                                    <p>We have some interesting and useful functions here.
+                                    <p>Կրիան ունի նաև այլ հետաքրքիր և օգտակար ֆունկցիաներ։
                                     </p>
                                 </div>
 
                                 <div id="showgrid" class="section-block">
                                     <h3>showGrid()</h3>
-                                    <p>Shows Euclidean grid on canvas. We recomend call this function before all others. Argument
-                                        sets grid scale.</p>
+                                    <p>Ցուցադրում է կորդինատական առանցքները։ Արգումենտով կարգավորվում է ցանցի խտությունը։</p>
                                     <p class="signature">showGrid(scale)</p>
-                                    <strong>arguments</strong>
+                                    <strong>արգումենտներ</strong>
                                     <p>int: scale</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1</h6>
+                                            <h6>Օրինակ 1</h6>
                                             <pre><code class="language-javascript">showGrid(50)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif red-border" src="assets/images/grid2.png">
                                         </div>
                                     </div>
                                     <!--//row-->
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 2</h6>
+                                            <h6>Օրինակ 2</h6>
                                             <pre><code class="language-javascript">showGrid(20)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif red-border" src="assets/images/grid1.png">
                                         </div>
                                     </div>
@@ -502,13 +500,13 @@ forward(100)</code></pre>
 
                                 <div id="randomColor_h" class="section-block">
                                     <h3>randomColor_h()</h3>
-                                    <p>Set random color on each time it called.</p>
+                                    <p>Ստեղծում է պատահական գույն։</p>
                                     <p class="signature">randomColor_h()</p>
-                                    <strong>arguments</strong>
-                                    <p>no arguments</p>
+                                    <strong>արգումենտներ</strong>
+                                    <p>արգումենտներ չունի</p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Example 1</h6>
+                                            <h6>Օրինակ</h6>
                                             <pre><code class="language-javascript">width(4)
 
 setInterval(function(){
@@ -519,7 +517,7 @@ setInterval(function(){
 },300)</code></pre>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <h6>Result</h6>
+                                            <h6>Արդյունք</h6>
                                             <img class="example-gif" src="assets/images/randomColor_h.gif">
                                         </div>
                                     </div>
@@ -532,7 +530,7 @@ setInterval(function(){
 
 
                             <section id="strange-section" class="doc-section">
-                                <h2 class="section-title">"Strange" Functions</h2>
+                                <h2 class="section-title">"Տարօրինակ" Ֆունկցիաներ</h2>
                                 <div id="strangeLine" class="section-block">
                                     <h3>strangeLine()</h3>
                                     <p>strangeLine() is like forward() but line has random pattern</p>
