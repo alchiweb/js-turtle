@@ -68,3 +68,20 @@ body h1 {
     float: right;
     font-size: 12px;
 }
+
+.doc-link{
+    background: rgb(34, 153, 84);
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px grey;
+    margin: 10px 0;
+    display: inline-block;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+.doc-link:hover{
+    background: rgb(81, 219, 139);
+}
