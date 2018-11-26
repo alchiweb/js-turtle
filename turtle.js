@@ -1,3 +1,4 @@
+/// <reference path="./lib/Intellisense/js-turtle_hy.ts" />
 //DOCUMENTATION: https://hanumanum.github.io/js-turtle/
 /*
 showGrid(20);      
@@ -18,6 +19,7 @@ color("red")
 color("#ff0000")
 */
 
+
 showGrid(50);
 setSpeed(200);
 
@@ -35,5 +37,3 @@ width(2);
 right(100);
 color("green");
 forward(150);
-
-
