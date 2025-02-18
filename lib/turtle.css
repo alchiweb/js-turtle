@@ -43,8 +43,19 @@ body h1 {
 }
 
 #coords{
-   float:right;
+   position: absolute;
+   left:10px;
+   top:0;
+   font-family: monospace;
+   unicode-bidi: isolate;
+   white-space: pre;   
 }
+#message{
+   position: absolute;
+   left:200px;
+   top:0;
+}
+
 
 .colours{
    padding:5px;
